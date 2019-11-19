@@ -1,0 +1,7 @@
+```
+> pipenv shell
+> pipenv install
+> export PYTHONPATH=$PATH
+> flake8 --version
+3.7.9 (flake8-bugbear: 19.8.0, mccabe: 0.6.1, pycodestyle: 2.5.0, pyflakes: 2.1.1) CPython 3.7.5 on Darwin
+> flake8 --select=B001,E722 *
